@@ -1,0 +1,10 @@
+<jnt = 'http://www.jahia.org/jahia/nt/1.0'>
+<jmix = 'http://www.jahia.org/jahia/mix/1.0'>
+<gladtek = 'http://www.gladtek.com/jahia/nt/1.0'>
+<gladtekmix = 'http://www.gladtek.com/jahia/mix/1.0'>
+
+[gladtekmix:umamiAnalytics] mixin
+ extends=jnt:virtualsite
+ itemtype=options
+ - umamiJsScriptUrl (string) mandatory nofulltext
+ - umamiWebSiteId (string) mandatory nofulltext

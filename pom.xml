@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.jahia.modules</groupId>
+        <artifactId>jahia-modules</artifactId>
+        <version>8.1.6.0</version>
+    </parent>
+    <artifactId>gladtek-umami</artifactId>
+    <groupId>com.gladtek.jahia.modules</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>bundle</packaging>
+    <name>Gladtek Umami Analytics for Jahia</name>
+    <description>This is a simple custom module (Gladtek Umami Analytics) running on a Jahia server.</description>
+    <scm>
+        <connection>scm:git:git@github.com:Gladtek/gladtek-umami.git</connection>
+        <developerConnection>scm:git:git@github.com:Gladtek/gladtek-umami.git</developerConnection>
+        <url>https://github.com/Gladtek/gladtek-umami</url>
+        <tag>HEAD</tag>
+    </scm>
+    <organization>
+        <name>Gladtek SAS</name>
+        <url>https://www.gladtek.com</url>
+    </organization>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>jahia-public</id>
+            <name>Jahia Public Repository</name>
+            <url>https://devtools.jahia.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+    <properties>
+        <jahia.plugin.version>6.10</jahia.plugin.version>
+    </properties>
+</project>
