@@ -37,5 +37,6 @@ In case you want further additional events to track, your components should use 
 [Tracking Events](https://umami.is/docs/track-events)
 
 
-## This is a basic implementation
-There are more options possible with Umami that can make this bundle upgradeable with more variables to use.
+> [!NOTE]  
+>This is a basic implementation
+>There are **more options** possible with Umami that can make this bundle upgradeable with **more variables** to use --> [Umami Docs](https://umami.is/docs).
